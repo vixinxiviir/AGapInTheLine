@@ -1,0 +1,1 @@
+fruitTimer = 420;
