@@ -1,5 +1,3 @@
-
-
 if instance_find(o_AntChoiceMenu, 0)
 {
 	instance_destroy(instance_find(o_AntChoiceMenu, 0))
