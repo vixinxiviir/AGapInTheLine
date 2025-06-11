@@ -50,7 +50,6 @@ if state == antStates.MOVING
 	{
 		x = targetX;
 		y = targetY;
-		crawlSpeed = 0;
 		state = antStates.CARRYING;
 		target.state = fruitStates.CARRIED;
 	}	
@@ -58,10 +57,50 @@ if state == antStates.MOVING
 
 if state == antStates.CARRYING
 {
-	
+	var returnDir = point_direction(x,y,global.antSpawnX, global.antSpawnY)
+	image_angle = returnDir-90;
+	if  point_distance(x, y, global.antSpawnX, global.antSpawnY) > crawlSpeed
+	{
+		x += lengthdir_x(crawlSpeed, returnDir);
+		y += lengthdir_y(crawlSpeed, returnDir);
+		target.x = x;
+		target.y = y-12;
+	}
+	else
+	{
+		x = global.antSpawnX;
+		y = global.antSpawnY;
+		instance_destroy(target);
+		resetDir = random_range(0,180);
+		resetDistance = random_range(50, 150);
+		state = antStates.RESETTING;
+		
+	}	
 }
 
-if state == antStates.RESETTING
+if state == antStates.RESETTING 
 {
+	
+	image_angle = resetDir-90;
+	
+	if point_distance(x,y,global.antSpawnX,global.antSpawnY) < resetDistance
+	{
+		x += lengthdir_x(crawlSpeed, resetDir);
+		y += lengthdir_y(crawlSpeed, resetDir);	
+	}
+	else
+	{
+		if targetFruit != 0
+		{
+			target = noone;
+			state = antStates.TARGETING;
+		}
+		else
+		{
+			target = noone;
+			targetFruit = 0;
+			state = antStates.IDLE;
+		}	
+	}
 	
 }

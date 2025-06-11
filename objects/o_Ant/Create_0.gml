@@ -25,3 +25,5 @@ crawlSpeed = 1;
 target = noone;
 targetX = NaN;
 targetY = NaN;
+resetDir = 0;
+resetDistance = 0;
