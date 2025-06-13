@@ -4,8 +4,17 @@ fruitOptions =
 	apple: 2,
 	lemon: 3
 }
-	
 
+getFruitSprite = function(targetFruit)
+{
+	switch (targetFruit)
+	{
+		default:
+			break;
+		case o_Peach:
+			return s_Peach;
+	}
+}
 enum antStates 
 {
 	IDLE,
@@ -18,6 +27,7 @@ enum antStates
 state = antStates.IDLE;
 
 targetFruit = 0;
+targetFruitSprite = 0;
 mousePressed = 0;
 menuUp = 0;
 hovered = 0;

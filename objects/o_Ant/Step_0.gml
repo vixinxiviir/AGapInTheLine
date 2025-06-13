@@ -10,7 +10,7 @@ if position_meeting(mouse_x, mouse_y, id)
 else
 	hovered = 0;
 
-
+targetFruitSprite = getFruitSprite(targetFruit);
 
 
 // State checks
