@@ -27,7 +27,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Silver.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Silver.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -35,6 +37,8 @@
   },
   "name":"AGapInTheLine",
   "resources":[
+    {"id":{"name":"f_SilverDefault","path":"fonts/f_SilverDefault/f_SilverDefault.yy",},},
+    {"id":{"name":"f_SilverMenuItem","path":"fonts/f_SilverMenuItem/f_SilverMenuItem.yy",},},
     {"id":{"name":"o_Ant","path":"objects/o_Ant/o_Ant.yy",},},
     {"id":{"name":"o_AntChoiceMenu","path":"objects/o_AntChoiceMenu/o_AntChoiceMenu.yy",},},
     {"id":{"name":"o_AntMenu","path":"objects/o_AntMenu/o_AntMenu.yy",},},

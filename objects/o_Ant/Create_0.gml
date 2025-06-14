@@ -37,3 +37,4 @@ targetX = NaN;
 targetY = NaN;
 resetDir = 0;
 resetDistance = 0;
+fruitsRetrieved = 0;

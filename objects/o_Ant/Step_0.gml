@@ -73,6 +73,7 @@ if state == antStates.CARRYING
 		instance_destroy(target);
 		resetDir = random_range(0,180);
 		resetDistance = random_range(50, 150);
+		fruitsRetrieved += 1;
 		state = antStates.RESETTING;
 		
 	}	
