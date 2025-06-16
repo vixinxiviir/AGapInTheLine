@@ -17,10 +17,12 @@ targetFruitSprite = getFruitSprite(targetFruit);
 if state == antStates.IDLE
 	{
 		crawlSpeed = 0;
+		image_index = 0;
 	}
 
 if state == antStates.TARGETING
 {
+	image_index = 0;
 	with (o_Peach)
 	{
 		if state == fruitStates.OPEN and other.target == noone
@@ -38,6 +40,7 @@ if state == antStates.TARGETING
 	
 if state == antStates.MOVING
 {
+	image_speed = .37
 	crawlSpeed = 1;
 	var dir = point_direction(x, y, targetX, targetY);
 	image_angle = dir - 90;
