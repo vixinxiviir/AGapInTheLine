@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_AntMenuItem",
+  "%Name":"o_ExitButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_AntMenuItem",
+  "name":"o_ExitButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_MenuItemTile",
-    "path":"sprites/s_MenuItemTile/s_MenuItemTile.yy",
+    "name":"s_ExitButton",
+    "path":"sprites/s_ExitButton/s_ExitButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

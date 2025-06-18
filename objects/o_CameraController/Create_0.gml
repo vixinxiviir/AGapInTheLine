@@ -1,2 +1,2 @@
-cameraSpeed = 5;
+cameraSpeed = 10;
 mainCamera = view_get_camera(0);

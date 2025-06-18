@@ -5,9 +5,7 @@ var down = keyboard_check(ord("S"));
 
 if left and x > 960
 {
-	
 	x -= cameraSpeed
-	
 }
 
 if right and x < 4040
@@ -18,12 +16,10 @@ if right and x < 4040
 
 if up and y > 540
 {
-
-	y -= cameraSpeed
-	
+	y -= cameraSpeed	
 }
 
 if down and y < 4460
-	{
-		y += cameraSpeed
-	}
+{
+	y += cameraSpeed
+}

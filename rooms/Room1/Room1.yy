@@ -10,8 +10,6 @@
     {"name":"inst_2E4838D2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_50CD1B3A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_52857FF","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6B8E70D1","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_31758371","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_25B76D8F","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
