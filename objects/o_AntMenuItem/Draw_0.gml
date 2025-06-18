@@ -43,7 +43,7 @@ for (var i = 0; i < numAnts; i++)
 	if !(_y < y) and _y < room_height - 55 and global.antMenuActive
 	{
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, 0, -1, 1);
-		draw_sprite_ext(s_Ant, 0, _x -15, _y + 35, s_Ant.image_xscale * 1.5, s_Ant.image_yscale * 1.5, 0, -1, 1);
+		draw_sprite_ext(s_Ant, activeAnts[i].image_index, _x -15, _y + 35, s_Ant.image_xscale * 1.5, s_Ant.image_yscale * 1.5, 0, -1, 1);
 		var antTarget = activeAnts[i].targetFruitSprite;
 		if antTarget != undefined and antTarget != 0
 			draw_sprite_ext(antTarget, antTarget.image_index, _x + 50, _y + 35, antTarget.image_xscale*1.5, antTarget.image_yscale*1.5, 0, -1, 1);

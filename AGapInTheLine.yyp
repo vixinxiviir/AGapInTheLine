@@ -45,6 +45,7 @@
     {"id":{"name":"o_AntMenuItem","path":"objects/o_AntMenuItem/o_AntMenuItem.yy",},},
     {"id":{"name":"o_AntMenuManager","path":"objects/o_AntMenuManager/o_AntMenuManager.yy",},},
     {"id":{"name":"o_AntSpawner","path":"objects/o_AntSpawner/o_AntSpawner.yy",},},
+    {"id":{"name":"o_CameraController","path":"objects/o_CameraController/o_CameraController.yy",},},
     {"id":{"name":"o_FruitIcon","path":"objects/o_FruitIcon/o_FruitIcon.yy",},},
     {"id":{"name":"o_Peach","path":"objects/o_Peach/o_Peach.yy",},},
     {"id":{"name":"o_PeachSpawner","path":"objects/o_PeachSpawner/o_PeachSpawner.yy",},},

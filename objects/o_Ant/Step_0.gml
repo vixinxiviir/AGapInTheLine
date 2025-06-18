@@ -40,7 +40,7 @@ if state == antStates.TARGETING
 	
 if state == antStates.MOVING
 {
-	image_speed = .37
+	image_speed = .22
 	crawlSpeed = 1;
 	var dir = point_direction(x, y, targetX, targetY);
 	image_angle = dir - 90;
