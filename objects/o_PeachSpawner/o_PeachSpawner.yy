@@ -9,8 +9,8 @@
   "name":"o_PeachSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Spawners",
+    "path":"folders/Objects/Spawners.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"o_ExitButton",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"o_ExitButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Menus",
+    "path":"folders/Objects/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

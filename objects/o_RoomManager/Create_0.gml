@@ -11,4 +11,3 @@ global.antSpawnX = 0;
 global.antSpawnY = 0;
 global.maxAnts = 15;
 global.maxFruit = 15;
-draw_set_font(f_SilverMenuItem);
