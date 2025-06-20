@@ -63,7 +63,7 @@ if global.antMenuActive == 1
 		if antTarget != undefined and antTarget != 0
 			draw_sprite_ext(antTarget, 0, 250, _y, 1.5, 1.5, 0, -1, 1);
 		draw_set_font(f_SilverMenuItem);
-		draw_text_transformed(350, _y - 25, "Fruits Collected:", 1, 1, 0);
+		draw_text_transformed(350, _y - 12, "Fruits Collected:", 1, 1, 0);
 		var fruits = activeAnts[i].fruitsRetrieved;
 		draw_text_transformed(600, _y - 12, string(fruits), 1, 1, 0);
 		

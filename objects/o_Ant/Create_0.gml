@@ -24,8 +24,14 @@ enum antStates
 	RESETTING
 }
 
-state = antStates.IDLE;
+enum selectionStates
+{
+	UNSELECTED,
+	SELECTED	
+}
 
+state = antStates.IDLE;
+selectionState = selectionStates.UNSELECTED;
 targetFruit = 0;
 targetFruitSprite = 0;
 mousePressed = 0;

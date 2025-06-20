@@ -11,3 +11,4 @@ global.antSpawnX = 0;
 global.antSpawnY = 0;
 global.maxAnts = 15;
 global.maxFruit = 15;
+global.selectedAnts = ds_list_create();

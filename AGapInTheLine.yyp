@@ -48,6 +48,7 @@
     {"id":{"name":"o_AntMenu","path":"objects/o_AntMenu/o_AntMenu.yy",},},
     {"id":{"name":"o_AntMenuItem","path":"objects/o_AntMenuItem/o_AntMenuItem.yy",},},
     {"id":{"name":"o_AntMenuManager","path":"objects/o_AntMenuManager/o_AntMenuManager.yy",},},
+    {"id":{"name":"o_AntSelector","path":"objects/o_AntSelector/o_AntSelector.yy",},},
     {"id":{"name":"o_AntSpawner","path":"objects/o_AntSpawner/o_AntSpawner.yy",},},
     {"id":{"name":"o_CameraController","path":"objects/o_CameraController/o_CameraController.yy",},},
     {"id":{"name":"o_ExitButton","path":"objects/o_ExitButton/o_ExitButton.yy",},},
