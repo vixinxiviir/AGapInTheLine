@@ -56,17 +56,18 @@ if global.antMenuActive == 1
 			var _y = 50 + menuOffset + (spriteHeight) * i;
 		else
 			var _y = 50 + (spriteHeight) * i;
-		
-		draw_sprite_ext(s_MenuItemTile, 0, _x, _y, xScale-.1, s_MenuItemTile.image_yscale, 0, -1, 1);
-		draw_sprite_ext(s_Ant, activeAnts[i].image_index, 150, _y, 1.5, 1.5, 0, -1, 1);
-		var antTarget = activeAnts[i].targetFruitSprite;
-		if antTarget != undefined and antTarget != 0
-			draw_sprite_ext(antTarget, 0, 250, _y, 1.5, 1.5, 0, -1, 1);
-		draw_set_font(f_SilverMenuItem);
-		draw_text_transformed(350, _y - 12, "Fruits Collected:", 1, 1, 0);
-		var fruits = activeAnts[i].fruitsRetrieved;
-		draw_text_transformed(600, _y - 12, string(fruits), 1, 1, 0);
-		
+		if _y > 0
+		{
+			draw_sprite_ext(s_MenuItemTile, 0, _x, _y, xScale-.1, s_MenuItemTile.image_yscale, 0, -1, 1);
+			draw_sprite_ext(s_Ant, activeAnts[i].image_index, 150, _y, 1.5, 1.5, 0, -1, 1);
+			var antTarget = activeAnts[i].targetFruitSprite;
+			if antTarget != undefined and antTarget != 0
+				draw_sprite_ext(antTarget, 0, 250, _y, 1.5, 1.5, 0, -1, 1);
+			draw_set_font(f_SilverMenuItem);
+			draw_text_transformed(350, _y - 12, "Fruits Collected:", 1, 1, 0);
+			var fruits = activeAnts[i].fruitsRetrieved;
+			draw_text_transformed(600, _y - 12, string(fruits), 1, 1, 0);
+		}
 		
 		
 	}

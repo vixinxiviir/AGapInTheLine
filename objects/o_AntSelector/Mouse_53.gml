@@ -1,10 +1,3 @@
-if !collision_point(mouse_x, mouse_y, all, false, false)
-{
-	selecting = true;
-	xStart = mouse_x;
-	yStart = mouse_y;
-}
-
 if selectionExists and !global.antMenuActive
 {
 	var selectedAntsSize = ds_list_size(global.selectedAnts);
@@ -16,4 +9,11 @@ if selectionExists and !global.antMenuActive
 	global.selectedAnts = ds_list_create();
 	selecting = false;
 	selectionExists = false;
+}
+
+if !collision_point(mouse_x, mouse_y, all, false, false)
+{
+	selecting = true;
+	xStart = mouse_x;
+	yStart = mouse_y;
 }
