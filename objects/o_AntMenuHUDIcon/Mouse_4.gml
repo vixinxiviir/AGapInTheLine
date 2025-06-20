@@ -1,0 +1,1 @@
+global.antMenuActive = 1;

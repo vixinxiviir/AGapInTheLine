@@ -6,7 +6,7 @@ if hovered = 1 and menuUp = 0 and self.targetFruit == fruitOptions.peach
 	draw_sprite(s_Peach, -1, self.x, self.y - 32)	
 }
 
-if selectionState = selectionStates.SELECTED
-	image_alpha = .5;
+if selectionState = selectionStates.SELECTED or hovered
+	image_alpha = .65;
 else
 	image_alpha = 1;
